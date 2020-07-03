@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.active{
+  color:red;
+}
+.icon.yellow-text {
+  margin: 2%;
+}
+
+.row.no-margin.grey.darken-4{
+  margin: 0;
+}
+
+.col.s9.no-pad-left{
+  padding: 0%;
+}
+
+.center.no-margin{
+  margin: 0%;
+  padding-top: 10%;
+}
+.margin-both{
+  margin: 0 9% 0 9%;
+}

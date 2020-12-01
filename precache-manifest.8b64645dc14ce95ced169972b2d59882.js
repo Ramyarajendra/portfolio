@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bd5a5497791a7898c0913a6cc85e34bd",
+    "revision": "805e4a6cd236b8a62e36d91cf69e1d03",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.bd878acc.chunk.css"
   },
   {
-    "revision": "43cb17367076cc1581ef",
+    "revision": "3a77615517ad71139d58",
     "url": "/portfolio/static/css/main.4b57565d.chunk.css"
   },
   {
@@ -20,16 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.6639dd54.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "43cb17367076cc1581ef",
-    "url": "/portfolio/static/js/main.d9e84f29.chunk.js"
+    "revision": "3a77615517ad71139d58",
+    "url": "/portfolio/static/js/main.8f0be9b4.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
     "url": "/portfolio/static/js/runtime-main.209c2d7e.js"
   },
   {
-    "revision": "80a0fb4baa1e99fe8ef42963b0fc4d31",
-    "url": "/portfolio/static/media/Ramya Rajendra.80a0fb4b.pdf"
+    "revision": "69b49c6d7736b7c1de283dd88651a588",
+    "url": "/portfolio/static/media/Ramya Rajendra.69b49c6d.pdf"
   },
   {
     "revision": "76e73036d4948d2f468510483c75699c",

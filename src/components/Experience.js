@@ -13,6 +13,20 @@ const Experience = () => {
         <VerticalTimeline >
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
+                contentStyle={{ background: '#C3073F', color: 'white' }}
+                contentArrowStyle={{ borderRight: '7px solid white' }}
+                date="Sept 2020-Present"
+                iconStyle={{ background: '#59253A', color: '#fff' }}
+                style={{'fontFamily':'Courier New'}}
+            >
+                <h4 className="vertical-timeline-element-title">Software Developer Intern</h4>
+                <h5 className="vertical-timeline-element-subtitle">QNOPY INC</h5>
+                <li>Web development</li>
+                <li> Involved in developing responsive web components with React ,Redux, Material UI</li>
+                <li>Also engaged in developing RESTful APIs</li>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
                 contentStyle={{ background: '#99004C', color: 'white' }}
                 contentArrowStyle={{ borderRight: '7px solid white' }}
                 date="Oct 2018-May 2019"

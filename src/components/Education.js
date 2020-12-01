@@ -18,7 +18,7 @@ const Education = () => {
                     <p className='white-text'><b>GPA:</b>3.67</p>
                     <p className='white-text'>
                         <b>Relevant Coursework:</b> <i> Online Social Network Analysis, Advanced database Organization, Mobile Application Development , BigData Technologies,
-                        Computer Networks , Machine Learning</i>
+                        Computer Networks , Machine Learning, Design & Analysis of Algorithms , Software Project Management , Data Mining</i>
                     </p>
                 </TimelineItem>
                 <TimelineItem

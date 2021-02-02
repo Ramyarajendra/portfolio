@@ -15,7 +15,7 @@ const Projects = () => {
                 className="vertical-timeline-element--work"
                 contentStyle={{ background: '#99004C', color: 'white' }}
                 contentArrowStyle={{ borderRight: '7px solid white' }}
-                date="May 2020"
+                date="Jan 2021"
                 iconStyle={{ background: '#59253A', color: '#fff' }}
                 style={{'fontFamily':'Courier New'}}
             >
@@ -35,7 +35,7 @@ const Projects = () => {
                 className="vertical-timeline-element--work"
                 contentStyle={{ background: '#C3073F', color: 'white' }}
                 contentArrowStyle={{ borderRight: '7px solid white' }}
-                date="Jan 2021"
+                date="Dec 2020"
                 iconStyle={{ background: '#59253A', color: '#fff' }}
                 style={{'fontFamily':'Courier New'}}
             >

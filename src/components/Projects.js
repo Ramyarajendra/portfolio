@@ -19,10 +19,51 @@ const Projects = () => {
                 iconStyle={{ background: '#59253A', color: '#fff' }}
                 style={{'fontFamily':'Courier New'}}
             >
+                <h4 className="vertical-timeline-element-title">ShopOn</h4>
+                <h5 className="vertical-timeline-element-subtitle">E-Commerce MERN application</h5>
+                <ul>
+                    <li>➢ An actual replication of a real-world E-commerce platform</li>
+                    <li>➢ Implemented user authentication with JSON Web Token for login/register functionalities</li>
+                    <li>➢ Developed fully featured shopping cart with PayPal & credit/debit payments</li>
+                    <li>➢ Admin functionality for user, product & order management</li>
+                    <li>➢ Added search functionality and pagination for products, rating and review system for users</li>
+                </ul>
+                <a href='https://shoponapp.herokuapp.com/ ' rel="noopener noreferrer" target = "_blank" className='btn btn-small pink lighten-1'> View Demo</a>
+                <a href='https://github.com/Ramyarajendra/Shopping-App' rel="noopener noreferrer" target = "_blank" className='btn btn-small right pink lighten-1'> Source Code</a>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                contentStyle={{ background: '#C3073F', color: 'white' }}
+                contentArrowStyle={{ borderRight: '7px solid white' }}
+                date="Jan 2021"
+                iconStyle={{ background: '#59253A', color: '#fff' }}
+                style={{'fontFamily':'Courier New'}}
+            >
+                <h4 className="vertical-timeline-element-title">Transaction Application</h4>
+                <h5 className="vertical-timeline-element-subtitle">Fullstack app for banking</h5>
+                <ul>
+                    <li>➢ Uses React for frontend, redux for state management, mongodb as database and express server as backend</li>
+                    <li>➢ Implemented User authentication using JWT and used middleware to secure RESTful APIs</li>
+                    <li>➢ Provided user with Profile and Account screens to manage and view their data</li>
+                    <li>➢ User can view/edit profile</li>
+                    <li>➢ Account screen allows user to perform withdraw/deposit transactions and a summary page to view transaction history</li>
+                    <li>➢ Used MongoDB transactions for handling exceptions</li>
+                </ul>
+                <a href='https://shielded-coast-11527.herokuapp.com/' rel="noopener noreferrer" target = "_blank" className='btn btn-small pink lighten-1'> View Demo</a>
+                <a href='https://github.com/Ramyarajendra/transactionApp' rel="noopener noreferrer" target = "_blank" className='btn btn-small right pink lighten-1'> Source Code</a>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                contentStyle={{ background: '#99004C', color: 'white' }}
+                contentArrowStyle={{ borderRight: '7px solid white' }}
+                date="May 2020"
+                iconStyle={{ background: '#59253A', color: '#fff' }}
+                style={{'fontFamily':'Courier New'}}
+            >
                 <h4 className="vertical-timeline-element-title">Contact Keeper </h4>
                 <h5 className="vertical-timeline-element-subtitle">Full stack MERN web application</h5>
                 <ul>
-                    ➢ Makes use of Context API ,RESTful API for CRUD operations, React Hooks for state management ,mongo Atlas for cloud storage of data
+                    ➢ Makes use of Context API for state management, RESTful API for CRUD operations, React Hooks  ,mongo Atlas for cloud storage of data
                     and Json Web Token for token authentication </ul>
                 <a href=' https://fast-atoll-12985.herokuapp.com/' rel="noopener noreferrer" target = "_blank" className='btn btn-small pink lighten-1'> View Demo</a>
                 <a href='https://github.com/Ramyarajendra/ContactKeeper' rel="noopener noreferrer" target = "_blank" className='btn btn-small right pink lighten-1'> Source Code</a>

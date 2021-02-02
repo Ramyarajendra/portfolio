@@ -8,7 +8,7 @@ import Pdf from '../resources/Ramya Rajendra.pdf';
 const SideNav = () => {
     return (
         <div>
-            <ul className="sidenav sidenav-fixed" style={{'backgroundColor':'#59253A','width': '25%'}}>
+            <ul id='slide' className="sidenav sidenav-fixed" style={{'backgroundColor':'#59253A','width': '25%'}}>
                 <li>
                 <div className="user-view">
                         <div className="background black">
@@ -27,6 +27,7 @@ const SideNav = () => {
             <li><Link to="#contact" scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}  className="waves-effect white-text">Contact</Link></li>
             <li><a href = {Pdf} className='white-text' rel="noopener noreferrer" target = "_blank">Resume</a></li>
             </ul>
+            <a href='#' data-target='slide' className='sidenav-trigger'><i className='material-icons'>menu</i></a>
         </div>
     )
 }

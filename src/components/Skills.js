@@ -39,11 +39,11 @@ const Skills = () => {
                 <SkillBar skills={skills} colors={color}/>
             </div>
             <div className='row'>
-                <div className="col s6">
+                <div className="col s12 l6">
                     <h5 className='white-text'>Web Technologies / Frameworks</h5>
                     <SkillBar skills={webskills} colors={color}/>
                 </div>
-                <div className="col s6">
+                <div className="col s12 l6">
                     <h5 className='white-text'>Databases & others</h5>
                     <SkillBar skills={others} colors={color}/>
                 </div>
